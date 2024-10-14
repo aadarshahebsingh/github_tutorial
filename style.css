@@ -1,0 +1,63 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes sizing easier */
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font for the page */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6; /* Better line spacing for readability */
+}
+
+/* Header styling */
+header {
+    background: #35424a; /* Dark background for the header */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center align the text */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em; /* Larger font size for main heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+h2 {
+    margin-top: 20px; /* Space above the subheading */
+    font-size: 2em; /* Slightly smaller font size */
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Button styling */
+button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background change on hover */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Link styling */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
